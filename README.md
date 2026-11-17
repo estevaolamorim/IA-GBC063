@@ -31,6 +31,12 @@ Lucro médio em 30 dias, em 300 episódios de avaliação, com as mesmas sequên
 | Aleatória | −74 |
 | Pedir 10 sempre | −105 |
 
+![Curva de aprendizado](resultados/curva_aprendizado.png)
+![Comparação entre políticas](resultados/comparacao_politicas.png)
+![Episódio de exemplo](resultados/episodio_exemplo.png)
+
+Os números completos estão em `resultados/resultados.json`.
+
 ## Arquivos
 - `estoque_env.py`: ambiente (`reset`, `step`) e políticas de referência
 - `dqn.py`: rede Q, replay buffer, rede alvo e epsilon-greedy (PyTorch)
